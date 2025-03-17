@@ -28,7 +28,7 @@ jobs:
     steps:
     - name: Deploy to Docker Hub
       commands:
-        - docker run -d -p 3000:3000 nextjsgit:v1
+        - docker run -d -p 3200:3000 nextjsgit:v1
     #     build:
     #       dockerfile: Dockerfile
     #       tag: my-app:latest
